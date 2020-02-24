@@ -3,9 +3,7 @@
 
 Having briefly gone through the theory in part 1, let's demonstrate how simple linear regression can be used in practice.
 
-<br>
 <hr>
-<br>
 
 ### Data Description
 
