@@ -1,4 +1,3 @@
-
 ## Simple Linear Regression 2 - Predicting Yacht Hydrodynamics
 
 Having briefly gone through the theory in part 1, let's demonstrate how simple linear regression can be used in practice.
