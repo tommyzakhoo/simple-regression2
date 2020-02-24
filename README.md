@@ -20,9 +20,7 @@ Description of the variables in the dataset taken from the link above:
 
 Here, we are trying to predict Y = "Residuary resistance per unit weight of displacement" from the rest of the variables.
 
-<br>
 <hr>
-<br>
 
 #### Formatting The Data
 
@@ -47,9 +45,7 @@ g.close()
 
 ```
 
-<br>
 <hr>
-<br>
 
 #### Preliminary Exploration
 
