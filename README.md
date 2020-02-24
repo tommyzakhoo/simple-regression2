@@ -22,7 +22,7 @@ Here, we are trying to predict Y = "Residuary resistance per unit weight of disp
 
 <hr>
 
-#### Formatting The Data
+### Formatting The Data
 
 The data comes in a text file "yacht.txt", which is space separated inconsistently, and is also missing column headers. Let's add a header row, clean up the excess whitespace, and turn it into csv format.
 
@@ -47,7 +47,7 @@ g.close()
 
 <hr>
 
-#### Preliminary Exploration
+### Preliminary Exploration
 
 Let's take a look at the scatter plots.
 
