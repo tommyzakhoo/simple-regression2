@@ -24,7 +24,7 @@ Here, we are trying to predict <b>Y</b> = "Residuary resistance per unit weight 
 
 <hr>
 
-### Formatting The Data
+### CSV Conversion
 
 The data comes in a text file "yacht.txt", which is space separated inconsistently, and is also missing column headers. Let's add a header row, clean up the excess whitespace, and turn it into csv format.
 
