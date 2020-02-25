@@ -1,6 +1,8 @@
 ## Simple Linear Regression 2 - Predicting Yacht Hydrodynamics
 
-Having briefly gone through the theory in part 1, let's demonstrate how simple linear regression can be used in practice.
+Having briefly gone through the mathematical theory in part 1, let's demonstrate how simple linear regression can be used in practice.
+
+Previous part: https://github.com/tommyzakhoo/simple-regression1
 
 <hr>
 
@@ -11,14 +13,14 @@ The dataset that we will be using comes from http://archive.ics.uci.edu/ml/datas
 Description of the variables in the dataset taken from the link above:
 
 * <i> Longitudinal position of the center of buoyancy, adimensional. </i>
-* Prismatic coefficient, adimensional.
-* Length-displacement ratio, adimensional. 
-* Beam-draught ratio, adimensional. 
-* Length-beam ratio, adimensional. 
-* Froude number, adimensional. 
-* Residuary resistance per unit weight of displacement, adimensional.
+* <i> Prismatic coefficient, adimensional. </i>
+* <i> Length-displacement ratio, adimensional. </i>
+* <i> Beam-draught ratio, adimensional. </i>
+* <i> Length-beam ratio, adimensional. </i>
+* <i> Froude number, adimensional. </i>
+* <i> Residuary resistance per unit weight of displacement, adimensional. </i>
 
-Here, we are trying to predict Y = "Residuary resistance per unit weight of displacement" from the rest of the variables.
+Here, we are trying to predict <b>Y</b> = "Residuary resistance per unit weight of displacement" using the rest of the variables.
 
 <hr>
 
