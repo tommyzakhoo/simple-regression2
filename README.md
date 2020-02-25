@@ -51,7 +51,7 @@ g.close()
 
 ### Preliminary Exploration
 
-Let's take a look at the scatter plots.
+Let's start by looking at the scatter plots of <b>Y</b> and some of these variables.
 
 
 
