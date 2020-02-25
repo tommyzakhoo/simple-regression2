@@ -10,7 +10,7 @@ The dataset that we will be using comes from http://archive.ics.uci.edu/ml/datas
 
 Description of the variables in the dataset taken from the link above:
 
-* Longitudinal position of the center of buoyancy, adimensional.
+* <i> Longitudinal position of the center of buoyancy, adimensional. </i>
 * Prismatic coefficient, adimensional.
 * Length-displacement ratio, adimensional. 
 * Beam-draught ratio, adimensional. 
