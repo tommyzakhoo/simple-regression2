@@ -66,3 +66,11 @@ for i in range(0,6):
 plt.show()
 
 ```
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/scatter.png", width="400">
+  <br>
+  <i> Still life with basket by Paul Cezanne (1890) </i>
+</p>
+
+
