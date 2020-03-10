@@ -20,7 +20,7 @@ Description of the variables in the dataset taken from the link above:
 * <i> Froude number, adimensional. </i>
 * <i> Residuary resistance per unit weight of displacement, adimensional. </i>
 
-Here, we are trying to predict <b>Y</b> = "Residuary resistance per unit weight of displacement" using the rest of the variables.
+Here, we are trying to predict <b>Y</b> = "<i>Residuary resistance per unit weight of displacement</i>" using the rest of the variables.
 
 <hr>
 
