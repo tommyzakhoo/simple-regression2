@@ -73,6 +73,10 @@ plt.show()
 
 While some of these variables look like good candidates for splitting the data set into clusters, only the bottom right plot shows some potential for a simple linear regression model. The relationship shown in the scatterplot is not linear, but we can apply a logarithmic transform to <b>Y</b> variable to get a more linear looking scatterplot.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/scatter.png", width="800">
+</p>
+
 ## 
 
 Please proceed to part 3 of this article for another application of simple linear regression to data: https://github.com/tommyzakhoo/simple_regression3
