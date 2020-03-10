@@ -51,7 +51,18 @@ g.close()
 
 ### Preliminary Exploration
 
-Let's start by looking at the scatter plots of <b>Y</b> and some of these variables.
+Let's start by looking at the scatter plots of <b>Y</b> with the rest of the variables.
 
+```python
 
+data = pd.read_csv('yacht.csv')
 
+import matplotlib.pyplot as plt # for visualization
+
+for i in range(0,6):
+    plt.subplot(2,3,i+1)
+    plt.scatter(data.iloc[:,i], data.iloc[:,6])
+
+plt.show()
+
+```
