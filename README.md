@@ -55,9 +55,10 @@ Let's start by looking at the scatter plots of <b>Y</b> with the rest of the var
 
 ```python
 
-data = pd.read_csv('yacht.csv')
-
+import pandas as pd # data structures module
 import matplotlib.pyplot as plt # for visualization
+
+data = pd.read_csv('yacht.csv')
 
 for i in range(0,6):
     plt.subplot(2,3,i+1)
@@ -74,10 +75,23 @@ plt.show()
 While some of these variables look like good candidates for splitting the data set into clusters, only the bottom right plot shows some potential for a simple linear regression model. The relationship shown in the scatterplot is not linear, but we can apply a logarithmic transform to <b>Y</b> variable to get a more linear looking scatterplot.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/scatter.png", width="800">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
 </p>
 
-## 
+Originally, our dependent variable was <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i>. Here, it has become <b>Z</b> = <b>log(Y+1)<b>, where <b>log</b> is the natural logarithm. We have added <b>1</b> because some values of <b>Y</b> were close to zero, which behaves badly under logarithmic transformation.
+  
+Our
+
+## Fitting A Simple Linear Regression Model
+
+Like we mention in part 1, we want to fit this linear model to our data.
+
+<p align="middle">
+  <b>y<sup>^</sup><sub>i</sub> = a<sup>^</sup> + b<sup>^</sup> x<sub>i</sub></b>
+</p>
+
+
+## More Real World Application
 
 Please proceed to part 3 of this article for another application of simple linear regression to data: https://github.com/tommyzakhoo/simple_regression3
 
