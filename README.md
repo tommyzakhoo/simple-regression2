@@ -78,7 +78,7 @@ While some of these variables look like good candidates for splitting the data s
   <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
 </p>
 
-Originally, our dependent variable was <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i>. Here, it has become <b>Z</b> = <b>log(Y+1)<b>, where <b>log</b> is the natural logarithm. We have added <b>1</b> because some values of <b>Y</b> were close to zero, which behaves badly under logarithmic transformation.
+Originally, our dependent variable was <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i>. Here, it has become <b>Z</b> = <b>log(Y+1)</b>, where <b>log</b> is the natural logarithm. We have added <b>1</b> because some values of <b>Y</b> were close to zero, which behaves badly under logarithmic transformation.
   
 Our
 
