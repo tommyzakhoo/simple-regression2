@@ -20,13 +20,13 @@ Description of the variables in the dataset taken from the link above:
 * <i> Froude number, adimensional. </i>
 * <i> Residuary resistance per unit weight of displacement, adimensional. </i>
 
-Here, we are trying to predict <b>Y</b> = "<i>Residuary resistance per unit weight of displacement</i>" using the rest of the variables.
+Here, we are trying to predict <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i> using the rest of the variables.
 
 <hr>
 
 ### CSV Conversion
 
-The data comes in a text file "yacht.txt", which is space separated inconsistently, and is also missing column headers. Let's add a header row, clean up the excess whitespace, and turn it into csv format.
+The data comes in a text file "yacht.txt</i>, which is space separated in a inconsistent way, and is also missing headers for each column. Let's add a row of headers, clean up the excess whitespace, and turn it into csv format.
 
 ```python
 
