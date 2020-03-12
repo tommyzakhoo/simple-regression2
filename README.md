@@ -78,17 +78,40 @@ While some of these variables look like good candidates for splitting the data s
   <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
 </p>
 
-Originally, our dependent variable was <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i>. Here, it has become <b>Z</b> = <b>log(Y+1)</b>, where <b>log</b> is the natural logarithm. We have added <b>1</b> because some values of <b>Y</b> were close to zero, which behaves badly under logarithmic transformation.
-  
-Our
+Originally, our dependent variable was <b>Y</b> = <i>Residuary resistance per unit weight of displacement</i>. Here, it has become <b>Z</b> = <b>log(Y+1)</b>, where <b>log</b> is the natural logarithm. We have added <b>1</b> because some values of <b>Y</b> were close to zero, which behaves badly under logarithmic transformation. Our independent variable here is <b>X</b> = the <i>Froude number</i>.
 
 ## Fitting A Simple Linear Regression Model
 
-Like we mention in part 1, we want to fit this linear model to our data.
+Like we mention in [part 1](https://github.com/tommyzakhoo/simple-regression1), we want to fit this linear model to our data.
 
 <p align="middle">
   <b>y<sup>^</sup><sub>i</sub> = a<sup>^</sup> + b<sup>^</sup> x<sub>i</sub></b>
 </p>
+
+The a<sup>^</sup> and b<sup>^</sup> can be found by minimizing the sum of squares.
+
+```python
+
+import pandas as pd # data structures module
+import numpy as np # n-dimensional array module
+from sklearn.linear_model import LinearRegression as lr
+
+data = pd.read_csv('yacht.csv')
+
+x = data.iloc[:,5]
+x = x.reshape(-1, 1)
+
+y = np.log(data.iloc[:,6]+1)
+y = y.reshape(-1, 1)
+
+reg = lr()
+reg.fit(x, y)
+
+```
+
+
+
+## The Physics Of Our Model
 
 
 ## More Real World Application
