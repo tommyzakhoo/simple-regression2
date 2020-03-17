@@ -111,7 +111,7 @@ reg.fit(x, y)
 We can plot the fitted line over a scatter plot to visualize the fit.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/regression.png", width="800">
 </p>
 
 ## The Physics Of Our Model
