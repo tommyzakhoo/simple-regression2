@@ -114,7 +114,7 @@ We can plot the fitted line over a scatter plot to visualize the fit.
   <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/regression.png", width="800">
 </p>
 
-Our simple regression line does looks like a "good" estimate. 
+Our simple regression line does looks like a "good" estimate at first glance. However, there are mathematical tools we can use to quantify this.
 
 ## Coefficient Of Determination
 
