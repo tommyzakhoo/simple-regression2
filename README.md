@@ -114,6 +114,17 @@ We can plot the fitted line over a scatter plot to visualize the fit.
   <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/regression.png", width="800">
 </p>
 
+Our simple regression line does looks like a "good" estimate. 
+
+## Coefficient Of Determination
+
+The coefficient of determination <b>r<sup>2</sup></b> can be interpreted as "how much of the variation in <b>Y</b> is explained by our model".
+  
+One thing to note is that in the setting of simple linear regression
+
+## Residual Analysis
+
+
 ## The Physics Of Our Model
 
 It turns out that the Froud number is an [important Physics concept](https://en.wikipedia.org/wiki/Froude_number) for determining resistance. This highlights a particular situation in which linear regression excels: estimating physical laws of nature.
