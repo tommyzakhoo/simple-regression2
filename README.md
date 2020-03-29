@@ -118,9 +118,9 @@ Our simple regression line does looks like a "good" estimate at first glance. Ho
 
 ## Coefficient Of Determination
 
-The coefficient of determination <b>r<sup>2</sup></b> can be interpreted as "how much of the variation in <b>Y</b> is explained by our model".
-  
-One thing to note is that in the setting of simple linear regression
+As mentioned in part 1 of this article, the coefficient of determination <b>R<sup>2</sup></b> can be interpreted as "how much of the variation in <b>Y</b> is explained by our model".
+
+In the setting of simple linear regression, <b>R<sup>2</sup></b> is simply the square of the sample correlation coefficient.
 
 ## Residual Analysis
 
