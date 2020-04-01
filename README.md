@@ -1,4 +1,4 @@
-## Simple Linear Regression 2 - Predicting Yacht Hydrodynamics
+## Simple Linear Regression 2 - Estimating Yacht Hydrodynamics
 
 Having briefly gone through the mathematical theory in part 1, let's demonstrate how simple linear regression can be used in practice.
 
@@ -155,12 +155,8 @@ plt.hist(e) # histogram
 
 ```
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
-</p>
-
-<p align="right">
-  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/residual.png", width="800">
 </p>
 
 
