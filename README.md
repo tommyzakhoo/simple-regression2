@@ -88,7 +88,7 @@ Like we mention in [part 1](https://github.com/tommyzakhoo/simple-regression1), 
   <b>y<sup>^</sup><sub>i</sub> = a<sup>^</sup> + b<sup>^</sup> x<sub>i</sub></b>
 </p>
 
-The a<sup>^</sup> and b<sup>^</sup> can be found by minimizing the sum of squares.
+Like we mentioned in part 1 of this article, he a<sup>^</sup> and b<sup>^</sup> can be found by minimizing the sum of squares. In sklearn, this solution is computed using Singular Value Decomposition (SVD). See [the documentation](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares) for more details.
 
 ```python
 
@@ -116,14 +116,46 @@ We can plot the fitted line over a scatter plot to visualize the fit.
 
 Our simple regression line does looks like a "good" estimate at first glance. However, there are mathematical tools we can use to quantify this.
 
+## Fitted Coefficients
+
+Let us take a look at the fitted coefficients.
+
+```
+>>> reg.coef_[0][0]
+11.957987175940932
+
+>>> reg.intercept_[0]
+-1.7672239620561152
+
+```
+
+What this means is that for our line model <b>y<sup>^</sup><sub>i</sub> = a<sup>^</sup> + b<sup>^</sup> x<sub>i</sub></b>, the coefficients <b>a<sup>^</sup> = -1.7672</b> and <b>b<sup>^</sup> = 11.9579</b>, to four decimal places.
+
+but since resistance cannot go below <b>0</b>, the interc
+
 ## Coefficient Of Determination
 
-As mentioned in part 1 of this article, the coefficient of determination <b>R<sup>2</sup></b> can be interpreted as "how much of the variation in <b>Y</b> is explained by our model".
+As mentioned in part 1 of this article, the coefficient of determination <b>R<sup>2</sup></b> can be interpreted as "how much of the variation in <b>Y</b> is explained by our model". For simple linear regression, <b>R<sup>2</sup></b> is actually equal to the square of the sample correlation coefficient.
 
-In the setting of simple linear regression, <b>R<sup>2</sup></b> is simply the square of the sample correlation coefficient.
+```
+>>> reg.score(x,y)
+0.9635494120195388
+```
+
+
 
 ## Residual Analysis
 
+We can take a look at the residual for clues on how good our model is.
+
+```
+e = y - y_predicted
+t = np.arange(0,len(e))
+
+plt.scatter(t,e) # scatter plot
+plt.hist(e) # histogram
+
+```
 
 ## The Physics Of Our Model
 
