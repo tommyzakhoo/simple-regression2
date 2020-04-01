@@ -142,8 +142,6 @@ As mentioned in part 1 of this article, the coefficient of determination <b>R<su
 0.9635494120195388
 ```
 
-
-
 ## Residual Analysis
 
 We can take a look at the residual for clues on how good our model is.
@@ -157,7 +155,16 @@ plt.hist(e) # histogram
 
 ```
 
-## The Physics Of Our Model
+<p align="left">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
+</p>
+
+<p align="right">
+  <img src="https://raw.githubusercontent.com/tommyzakhoo/simple-regression2/master/log_transform.png", width="800">
+</p>
+
+
+## Conclusions & Physics
 
 It turns out that the Froud number is an [important Physics concept](https://en.wikipedia.org/wiki/Froude_number) for determining resistance. This highlights a particular situation in which linear regression excels: estimating physical laws of nature.
 
